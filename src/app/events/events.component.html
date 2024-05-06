@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="card" style="height: 150px; width: 100%; background: #8175d3;">
+    <div class="create-card">
+      <div class="card-body" >
+        <a href="Contact"><img src="/assets/images/create.jpg" alt="" style="height: 50px; width: 50px;"></a>
+        <p class="card-text">Create New Event</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4" *ngFor="let card of cards">
+      <div class="card lg-4">
+        <img src="{{card.image}}" alt="">
+        <div class="card-title">{{ card.title }}</div>
+        <div class="card-body">{{ card.content }}</div>
+        <button (click)="card.url && navigateToSite(card.url)">For More Details</button>
+        <a href="Donate"><button>Donate</button></a>
+      </div>
+    </div>
+  </div>
+</div>

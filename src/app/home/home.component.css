@@ -1,0 +1,120 @@
+.image-container{
+    position: relative;
+}
+
+.image-container img{
+    width: 100%;
+    height: 500px;
+}
+
+.image-text1 {
+    position: absolute;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    top: 100px;
+    left: 100px; /* Adjust this value to position text horizontally */
+    padding: 10px; /* Adjust as needed */
+    
+}
+
+.image-text2 {
+    position: absolute;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+    top: 190px;
+    left: 100px; 
+    padding: 10px; 
+    
+}
+
+.image-container p{
+    position: absolute;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 37px; */
+    top: 240px;
+    left: 100px; 
+    padding: 10px; 
+}
+
+.button{
+    position: absolute;
+    top: 350px;
+    left: 100px; 
+    padding: 10px;
+}
+
+ .btn{
+  color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: #EFC3CA;
+    margin-top: 50px;
+}
+
+ .btn:hover{
+    background-color: #F08D9D;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image2 {
+    margin-right: 50px;
+    padding-top: 20px;
+  }
+  
+  .description2 {
+    text-align: left;
+  
+  }
+
+  .container3 {
+    /* width: ; */
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFC3CA;
+  }
+  
+  .image3 {
+    margin-right: 20px;
+    /* padding-top: 20px; */
+  }
+  
+  .description3 {
+    text-align: left;
+  
+  }
+
+  .sponsers {
+    /* background-color: lightgrey; */
+    height: auto;
+  }
+  
+  .heading {
+    /* background-color: #efffda; */
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  
+  .row2 {
+    padding-top: 20px;
+    display: flex;
+  }
+  
+  .col2 {
+    padding-left: 250px;
+    font-size: 20px;
+    line-height: 1.5;
+  }

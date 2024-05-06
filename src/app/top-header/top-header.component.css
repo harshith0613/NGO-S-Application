@@ -1,0 +1,45 @@
+
+.topheader {
+    /* text-align: center; */
+    display: flex;
+    padding-top: 5px;
+    height: 30px;  
+    background-color: #F0F0F0;  
+}
+
+.glyphicons {
+    /* margin-top: 10px; Adjust the spacing between the icons as needed */
+    margin-left: 500px;
+}
+
+/* Optional: Add space between individual icons */
+.glyphicons i {
+    margin-right: 35px; /* Adjust the spacing between icons as needed */
+}
+
+.mail{
+    padding-left: 70px;
+}
+
+.phoneNumber{
+    padding-left: 70px;
+    color: black;
+}
+
+.register{
+    padding-left: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    transition: transform 0.3s; 
+}
+
+.icon:hover {
+    transform: scale(1.5); 
+}
+
+a:hover{
+    background-color: yellow;
+}

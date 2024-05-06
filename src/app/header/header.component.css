@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+    height: 11hv;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #e5e4e2 1.5px solid;
+}
+
+.logo {
+    display: flex;
+    padding: 1.2vh 8vh;
+    font-weight: bold;
+    color: #36454F;
+    font-family: 'concert One', cursive;
+    width: 20px;
+}
+
+.header--nav {
+    width: 80%;
+    padding: 1vh 2vh;
+    font-size: 12px;
+}
+.menu {
+    padding-top: 2vh;
+    /* padding: 1vh 1vh; */
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: normal; */
+    font-size: 16px;
+    width: 70%;
+    text-align: center;
+}
+.menu a{
+    color: #36454F;
+}
+
+.bottom--bar {
+    display: flex;
+}
+
+.search-bar {
+    /* padding: 0 3vh; */
+    padding-top: 7px;
+}
+.search-box {
+    width: 170px;
+    height: 33px;
+    border: none;
+    background-color: #efefef;
+    /* padding: 2px 10px; */
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.search--btn{
+    width: 55px;
+    height: 35px;
+    border: none;
+    background-color: #efefef;
+    margin-left: -5px;
+}
+
+.search--btn:hover{
+    border: 1px solid gray;
+}
+
+.btn{
+    padding: 15px 25px;
+    border: none;
+    margin: 10px 0px;
+}
+.btn-primary{
+    background-color: #28282B;
+    color: white;
+}
